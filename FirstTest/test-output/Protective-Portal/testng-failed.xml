@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Protective-Portal]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Claim(failed)">
+    <classes>
+      <class name="PIC.PIC_Main_Test">
+        <methods>
+          <include name="quit"/>
+          <include name="TitleTest"/>
+        </methods>
+      </class> <!-- PIC.PIC_Main_Test -->
+    </classes>
+  </test> <!-- Claim(failed) -->
+</suite> <!-- Failed suite [Protective-Portal] -->
